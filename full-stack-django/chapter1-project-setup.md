@@ -6,8 +6,6 @@ Last Edited: November 2, 2025 7:57 AM
 
 ## Install poetry using pipx
 
----
-
 - Install pipx
 
 ```bash
@@ -46,8 +44,6 @@ ls # to check files in that directory
 
 ## Setup virtual environment & install dependencies
 
----
-
 ```bash
 poetry shell # to enter a Python shell using the poetry project
 
@@ -72,14 +68,10 @@ poetry run django-admin --version # outputs the version of Django you're using
 > Notes:
 >
 >
-> ---
->
 > `poetry.lock` file defines exactly what was installed - this is useful so that other developers can install the exact same versions of the dependencies.
 >
 
 ## Starting a django project
-
----
 
 ```bash
 # delete the src folder & run
@@ -92,8 +84,6 @@ poetry run python manage.py runserver
 ```
 
 ## Run migrations, create a superuser and access the admin panel
-
----
 
 ```bash
 # run migrations
@@ -109,8 +99,6 @@ poetry run python manage.py runserver
 ```
 
 ## Create a Django app
-
----
 
 A Django app is a package that provides a set of features to your Django project.
 
